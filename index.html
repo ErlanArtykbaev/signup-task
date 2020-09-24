@@ -9,8 +9,10 @@
 	<div class="container">
 		<div class="img-container"></div>
 		<form>
-			<label for="name">Name</label>
-			<input type="text" name="name" id="name" placeholder="Luke Skywalker">
+			<div class="name-box">
+				<label for="name">Name</label>
+				<input type="text" name="name" id="name" placeholder="Luke Skywalker">
+			</div>
 			<div class="genders">
 				<p>Gender</p>
 				<input type="radio" name="gender" id="male" value="male">
@@ -18,15 +20,25 @@
 				<input type="radio" name="gender" id="female" value="female">
 				<label for="female">female</label>
 			</div>
-			<label for="date-birth">Date of Birth</label>
-			<input type="date" name="date-birth" id="date-birth" placeholder="May 25 1977">
-			<label for="email">Email</label>
-			<input type="email" name="email" id="email" placeholder="example@mail.com">
-			<label for="city">City</label>
-			<input type="text" name="city" id="city" placeholder="Moisture Farm">
-			<label for="country">Country</label>
-			<input type="text" name="country" id="country" placeholder="Tatoine">
-			<label for="subscribtion">Subscribtion</label>
+			<div class="date-birth-box">
+				<label for="date-birth">Date of Birth</label>
+				<input type="date" name="date-birth" id="date-birth" placeholder="May 25 1977">
+			</div>
+			<div class="email-box">
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email" placeholder="example@mail.com">
+			</div>
+			<div class="city-box">
+				<label for="city">City</label>
+				<input type="text" name="city" id="city" placeholder="Moisture Farm">
+			</div>
+			<div class="country-box">
+				<label for="country">Country</label>
+				<input type="text" name="country" id="country" placeholder="Tatoine">
+			</div>
+			<div class="subscribtion-box">
+				<label for="subscribtion">Subscribtion</label>
+			</div>
 			<div class="buttons">
 				<input type="submit" value="Save">
 				<input type="button" value="Cancel">
