@@ -4,6 +4,8 @@ body{
   font-family: 'Roboto' , sans-serif;
   background-color: #F7F7F7;
 }
+
+/* Modal */
 .modal{
   background-color: #fff;
   display: flex;
@@ -13,8 +15,33 @@ body{
   width: 65%;
 }
 
+/*Form */
 form{
   width: 100%;
   border-radius: 0 12px 12px 0;
+  
 }
 
+.btn-save{
+  background-color: #96cc77;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  width: 190px;
+  height: 60px;
+}
+
+.btn-save:hover{
+  cursor: pointer;
+}
+
+.btn-cancel{
+  background-color: lightgrey;
+  border: none;
+  width: 190px;
+  height: 60px;
+  border-radius: 6px;
+}
+.btn-cancel:hover{
+  cursor: pointer;
+}
